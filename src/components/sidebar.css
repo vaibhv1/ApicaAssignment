@@ -23,14 +23,17 @@
     font-size: large;
     
 }
+.SideBarList .SideBarRow:hover{
+    color: blue;
+}
 .SideBarRow #icon{
     flex: 30%;
     display: grid;
-    place-items: center;
+    place-items: end;
 }
 
 .SideBarRow #title{
     flex: 70%;
-    place-items: center;
-    margin: 0;
+    place-items: left;
+    margin-left: 10px;
 }
