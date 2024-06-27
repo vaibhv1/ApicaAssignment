@@ -1,38 +1,66 @@
-.sideBar{
-    background-color: blue;
-    border: black;
-    height: 100%;
-    margin-left: 0px;
-    width: 10%;
-    margin-top:20px;
-}
-.SideBarList{
-    height: auto;
-    padding: 0;
-    width: 20%;
-    margin: 0;
-    margin-top:20px;
-}
-.SideBarRow{
-    width: 100%;
-    justify-content: center;
+.SideBar {
+    width: 200px;
     display: flex;
-    justify-content: start;
-    margin-top:20px;
-    font-weight: 400;
-    font-size: large;
-}
-.SideBarList .SideBarRow:hover{
-    color: blue;
-}
-.SideBarRow #icon{
-    flex: 10%;
-    display: grid;
-    place-items: center;
-}
-
-.SideBarRow #title{
-    flex:20%;    
-    display: grid;
-    place-items: left;
-}
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .randomIcon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2rem;
+  }
+  
+  .SideBarList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .SideBarRow {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    cursor: pointer;
+  }
+  
+  .iconTitleContainer {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .iconTitleContainer.hide #title {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+  }
+  
+  .iconTitleContainer.show #title {
+    opacity: 1;
+    max-width: 200px;
+  }
+  
+  #icon {
+    margin-right: 10px;
+  }
+  
+  #title {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .giftCardMessage {
+    font-weight: bold;
+  }
+  
+  .sidebar-divider {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }  
