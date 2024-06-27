@@ -7,7 +7,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import GroupIcon from '@mui/icons-material/Group';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ShoppingCart from './ShoppingCart';
-
+import RecentOrders from './RecentOrders';
 const Dashboard = () => {
     return (
         <div className="dashboard">
@@ -36,6 +36,7 @@ const Dashboard = () => {
             </div>
             <MarketingChart />
             <ShoppingCart />
+            <RecentOrders />
         </div>
     );
 };

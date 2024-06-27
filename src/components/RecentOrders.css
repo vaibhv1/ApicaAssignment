@@ -1,0 +1,16 @@
+/* src/components/RecentOrders.css */
+.recent-orders {
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 70%;
+    margin-top: -23%;
+    width: 370px;
+    length: 100vh;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+}
