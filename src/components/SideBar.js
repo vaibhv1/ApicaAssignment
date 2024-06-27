@@ -4,7 +4,7 @@ import './sidebar.css';
 import { SideBarData } from './SideBarData';
 import PieChartIcon from '@mui/icons-material/PieChart';
 
-export const Sidebar = () => {
+const Sidebar = ({ onItemClick }) => {
   const [showTitles, setShowTitles] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -14,6 +14,7 @@ export const Sidebar = () => {
 
   const handleItemClick = (key) => {
     setSelectedItem(prevSelectedItem => (prevSelectedItem === key ? null : key));
+    onItemClick(SideBarData[key].title); // Pass selected title to parent component
   };
 
   // Separate the main items from the bottom items
@@ -30,10 +31,7 @@ export const Sidebar = () => {
           <li
             className={`SideBarRow ${selectedItem === key ? 'selected' : ''}`}
             key={key}
-            onClick={(e) => { 
-              e.preventDefault();
-              handleItemClick(key);
-            }}
+            onClick={() => handleItemClick(key)}
           >
             <div className={`iconTitleContainer ${showTitles ? 'show' : 'hide'}`}>
               <div

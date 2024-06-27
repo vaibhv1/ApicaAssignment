@@ -3,16 +3,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 80%;
   }
   
   .randomIcon {
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 10px;
-    font-size: 50px; 
+    padding: 30px;
+    
   }
   
   .SideBarList {
@@ -64,12 +64,6 @@
     display: flex;
     align-items: center;
     padding-left: 10px; 
-  }
-  
-  .title.selectedTitle {
-    background-color: #5570F1;
-    color: white;
-    padding: 8px;
   }
   
   .giftCardMessage {

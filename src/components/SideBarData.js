@@ -53,7 +53,7 @@ export const SideBarData = [
   },
   {
     title:"Log Out",
-    icon:<LogoutIcon/>,
+    icon:<LogoutIcon style={{color: 'red' }}/>,
     Link:"/logout",
   },
 ]

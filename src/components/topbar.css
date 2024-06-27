@@ -1,0 +1,37 @@
+.Topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10%;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    margin-right: 20px;
+    background-color: #FEF5EA;
+  }
+  
+  .notificationIcon {
+    margin-right: 20px;
+  }
+  
+  .profile {
+    margin-right: 10px;
+  }  

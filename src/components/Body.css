@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+  }
+  
+  .left {
+    flex: 3;
+  }
+  
+  .right {
+    flex: 1; /* Adjust width proportionally as needed */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Additional styles for Sidebar and Topbar may be defined in their respective CSS files */
+  
