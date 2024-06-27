@@ -3,16 +3,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh; 
+    height: 100vh; /* Ensure sidebar takes full height */
   }
   
   .randomIcon {
     cursor: pointer;
     display: flex;
-    justify-content: start;
-    align-items: start;
-    padding: 30px;
-    font-size: 2rem; /* Increase the font size */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 50px; 
   }
   
   .SideBarList {
@@ -35,7 +35,7 @@
   }
   
   .SideBarRow.selected {
-    background-color: transparent;
+    background-color: transparent; /* Remove default background color */
   }
   
   .iconTitleContainer {
@@ -57,22 +57,29 @@
   .icon.selectedIcon {
     background-color: #5570F1;
     color: white;
-    padding: 8px;
-}
+    padding: 8px; /* Increase padding for better visibility */
+  }
   
   .title {
     display: flex;
     align-items: center;
-    padding-left: 10px; 
+    padding-left: 10px; /* Adjust padding as needed */
   }
   
-  .title.selectedTitle{
+  .title.selectedTitle {
     background-color: #5570F1;
     color: white;
-    padding: 8px; 
+    padding: 8px; /* Increase padding for better visibility */
   }
   
   .giftCardMessage {
     font-weight: bold;
-    background-color: beige;
+    background-color: burlywood;
   }
+  
+  .sidebar-divider {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }  
