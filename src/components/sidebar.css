@@ -2,14 +2,14 @@
     background-color: blue;
     border: black;
     height: 100%;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 10%;
     margin-top:20px;
 }
 .SideBarList{
     height: auto;
     padding: 0;
-    width: 30%;
+    width: 20%;
     margin: 0;
     margin-top:20px;
 }
@@ -21,19 +21,18 @@
     margin-top:20px;
     font-weight: 400;
     font-size: large;
-    
 }
 .SideBarList .SideBarRow:hover{
     color: blue;
 }
 .SideBarRow #icon{
-    flex: 30%;
+    flex: 10%;
     display: grid;
-    place-items: end;
+    place-items: center;
 }
 
 .SideBarRow #title{
-    flex: 70%;
-    place-items: left;
-    margin-left: 10px;
+    flex:20%;    
+    display: grid;
+    place-items: center;
 }

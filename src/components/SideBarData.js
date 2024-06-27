@@ -57,11 +57,3 @@ export const SideBarData = [
     Link:"/logout",
   },
 ]
-/*
-    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-import InventoryIcon from '@mui/icons-material/Inventory';
-import SmsIcon from '@mui/icons-material/Sms';
-import SettingsIcon from '@mui/icons-material/Settings';
-*/
