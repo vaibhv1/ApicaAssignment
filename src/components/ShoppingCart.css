@@ -1,0 +1,46 @@
+/* src/Dashboard.css */
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin-left: 35%;
+    margin-top: -30%;
+  }
+  
+  .card {
+    width: 300px;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  .card-icon {
+    background-color: #e0e7ff;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .active-products .percentage {
+    color: green;
+  }
+  
+  .stats .percentage {
+    color: green;
+  }
+  
