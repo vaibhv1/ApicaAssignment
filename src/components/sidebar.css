@@ -2,16 +2,17 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    justify-content: space-between;
+    height: 100vh; 
   }
   
   .randomIcon {
     cursor: pointer;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 2rem;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+    font-size: 2rem; /* Increase the font size */
   }
   
   .SideBarList {
@@ -20,12 +21,21 @@
     margin: 0;
   }
   
+  .SideBarList.bottom {
+    margin-top: auto; /* Push this list to the bottom */
+  }
+  
   .SideBarRow {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .SideBarRow.selected {
+    background-color: transparent;
   }
   
   .iconTitleContainer {
@@ -34,33 +44,35 @@
     transition: all 0.3s ease-in-out;
   }
   
-  .iconTitleContainer.hide #title {
-    opacity: 0;
-    max-width: 0;
-    overflow: hidden;
-  }
-  
-  .iconTitleContainer.show #title {
-    opacity: 1;
-    max-width: 200px;
-  }
-  
-  #icon {
-    margin-right: 10px;
-  }
-  
-  #title {
+  .icon {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: transparent;
+    border-radius: 50%; /* Make icon circular */
+  }
+  
+  .icon.selectedIcon {
+    background-color: #5570F1;
+    color: white;
+    padding: 8px;
+}
+  
+  .title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px; 
+  }
+  
+  .title.selectedTitle{
+    background-color: #5570F1;
+    color: white;
+    padding: 8px; 
   }
   
   .giftCardMessage {
     font-weight: bold;
+    background-color: beige;
   }
-  
-  .sidebar-divider {
-    width: 100%;
-    margin: 10px 0;
-    border: none;
-    border-top: 1px solid #ccc;
-  }  
