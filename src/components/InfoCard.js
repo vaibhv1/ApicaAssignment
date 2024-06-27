@@ -11,11 +11,11 @@ const InfoCard = ({ icon, title, value, subtitle, change }) => {
       <div className="content">
         <div className="header">
           <div className="title">{title}</div>
-          <div className="timeframe">This Week <span>▼</span></div>
+          <div className="timeframe">This Week <span style={{marginLeft:10+'px'}}>▼</span></div>
         </div>
         <div className="body">
           <div className="value">{value}</div>
-          <div className="change" style={{ color: change >= 0 ? 'green' : 'red' }}>{change}%</div>
+          <div className="change" style={{ color: change >= 0 ? 'green' : 'red' }}>{change}</div>
         </div>
         <div className="footer">
           <div className="subtitle">{subtitle}</div>

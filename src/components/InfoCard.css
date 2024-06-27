@@ -1,53 +1,55 @@
 /* src/components/InfoCard.css */
 .info-card {
-    display: flex;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin: 10px;
-    flex: 1;
-  }
-  
-  .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    margin-right: 20px;
-    width: 60px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-  }
-  
-  .header, .footer {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: grey;
-  }
-  
-  .body {
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .timeframe {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    color: grey;
-  }
-  
-  .change {
-    font-size: 14px;
-    color: green; /* Adjust this color based on the context (e.g., red for negative changes) */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  min-width: 0; /* Ensure cards shrink properly */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: grey;
+}
+
+.change {
+  font-size: 14px;
+}

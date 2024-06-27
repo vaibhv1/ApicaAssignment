@@ -1,7 +1,18 @@
 /* src/components/Dashboard.css */
 .dashboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.info-cards > * {
+  flex: 1;
+  margin: 0 10px;
+}
