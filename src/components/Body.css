@@ -1,16 +1,31 @@
-.App {
-    display: flex;
-  }
-  
-  .left {
-    flex: 3;
-  }
-  
-  .right {
-    flex: 1; /* Adjust width proportionally as needed */
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* Additional styles for Sidebar and Topbar may be defined in their respective CSS files */
-  
+/* src/Body.css */
+.body-container {
+  display: flex;
+  height: 100vh;
+}
+
+.SideBar {
+  width: 250px; /* Adjust width as necessary */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.TopBar {
+  height: 60px; /* Adjust height as necessary */
+  background-color: #f8f9fa; /* Example background color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Example padding */
+}
+
+.Dashboard {
+  flex: 1;
+  background-color: #fff; /* Example background color */
+  padding: 20px; /* Example padding */
+  overflow-y: auto;
+}

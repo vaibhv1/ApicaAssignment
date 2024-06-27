@@ -1,0 +1,7 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
