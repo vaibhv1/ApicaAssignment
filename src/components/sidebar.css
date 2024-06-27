@@ -34,5 +34,5 @@
 .SideBarRow #title{
     flex:20%;    
     display: grid;
-    place-items: center;
+    place-items: left;
 }
