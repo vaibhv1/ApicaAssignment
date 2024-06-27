@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import FolderIcon from '@mui/icons-material/Folder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import './ShoppingCart.css';
+import './styles/ShoppingCart.css';
 
 const ShoppingCart = () => {
   return (

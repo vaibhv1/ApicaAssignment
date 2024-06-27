@@ -2,12 +2,13 @@
 import React from 'react';
 import InfoCard from './InfoCard';
 import MarketingChart from './MarketingChart';
-import './DashBoard.css';
+import './styles/DashBoard.css';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import GroupIcon from '@mui/icons-material/Group';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ShoppingCart from './ShoppingCart';
 import RecentOrders from './RecentOrders';
+import SalesBarChart from './SalesBarChart';
 const Dashboard = () => {
     return (
         <div className="dashboard">
@@ -37,6 +38,7 @@ const Dashboard = () => {
             <MarketingChart />
             <ShoppingCart />
             <RecentOrders />
+            <SalesBarChart />
         </div>
     );
 };

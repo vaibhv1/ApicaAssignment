@@ -1,7 +1,7 @@
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
-import './MarketingChart.css'
+import './styles/MarketingChart.css'
 const MarketingChart = () => {
   const data = {
     labels: ['Acquisition', 'Purchase', 'Retention'],

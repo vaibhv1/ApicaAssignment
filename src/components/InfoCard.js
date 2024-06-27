@@ -1,6 +1,6 @@
 // src/components/InfoCard.js
 import React from 'react';
-import './InfoCard.css';
+import './styles/InfoCard.css';
 
 const InfoCard = ({ icon, title, value, subtitle, change }) => {
   return (

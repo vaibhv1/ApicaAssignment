@@ -1,7 +1,7 @@
 // src/components/OrderCard.js
 import React from 'react';
 import { Card, CardContent, Typography, Avatar } from '@mui/material';
-import './OrderCard.css';
+import './styles/OrderCard.css';
 
 const OrderCard = ({ image, name, price, date, status }) => {
     return (

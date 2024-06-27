@@ -1,6 +1,6 @@
 // src/Sidebar.js
 import React, { useState } from 'react';
-import './sidebar.css';
+import './styles/sidebar.css';
 import { SideBarData } from './SideBarData';
 import PieChartIcon from '@mui/icons-material/PieChart';
 

@@ -1,7 +1,7 @@
 // src/components/RecentOrders.js
 import React from 'react';
 import OrderCard from './OrderCard';
-import './RecentOrders.css';
+import './styles/RecentOrders.css';
 import { Typography } from '@mui/material';
 const orders = [
     { image: 'path_to_image1', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Pending' },
