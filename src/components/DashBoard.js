@@ -18,6 +18,7 @@ const Dashboard = () => {
                     value="₦4,000,000.00" 
                     subtitle="Volume" 
                     change="+20.00%" 
+                    color="green"
                 />
                 <InfoCard 
                     icon={<GroupIcon />} 

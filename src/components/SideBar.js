@@ -14,7 +14,7 @@ const Sidebar = ({ onItemClick }) => {
 
   const handleItemClick = (key) => {
     setSelectedItem(prevSelectedItem => (prevSelectedItem === key ? null : key));
-    onItemClick(SideBarData[key].title); // Pass selected title to parent component
+    onItemClick(SideBarData[key].title);
   };
 
   // Separate the main items from the bottom items

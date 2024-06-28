@@ -26,6 +26,13 @@ const CustomerOrdersHeader = ({ search, onSearchChange, onFilterClick, onDateFil
         Customer Orders
       </Typography>
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Button
+          variant="contained"
+          size="small"
+          sx={{ marginRight: '10px' }} // Adjust spacing as needed
+        >
+          Add Product
+        </Button>
         <TextField
           variant="outlined"
           size="small"

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/InfoCard.css';
 
-const InfoCard = ({ icon, title, value, subtitle, change }) => {
+const InfoCard = ({ icon, title, value, subtitle, change,color }) => {
   return (
     <div className="info-card">
       <div className="icon">
@@ -14,7 +14,7 @@ const InfoCard = ({ icon, title, value, subtitle, change }) => {
         </div>
         <div className="body">
           <div className="value">{value}</div>
-          <div className="change" style={{ color: change >= 0 ? 'green' : 'red' }}>{change}</div>
+          <div className="change" style={{ color: change >= 0 ? "green" : "red" }}>{change}</div>
         </div>
         <div className="footer">
           <div className="subtitle">{subtitle}</div>
