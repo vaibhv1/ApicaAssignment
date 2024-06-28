@@ -13,14 +13,14 @@ const data = [
 
 const SalesBarChart = () => {
   return (
-    <ResponsiveContainer className="chart" width="40%" height={400}>
+    <ResponsiveContainer className="chart" width="75%" height={400}>
       <BarChart data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="Sales" fill="#8884d8" barSize={20} />
+        <Bar dataKey="Sales" fill="#8884d8" barSize={10} />
       </BarChart>
     </ResponsiveContainer>
   );

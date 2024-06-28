@@ -9,10 +9,6 @@ const orders = [
     { image: 'path_to_image2', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Completed' },
     { image: 'path_to_image2', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Completed' },
     { image: 'path_to_image2', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Completed' },
-    { image: 'path_to_image2', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Completed' },
-    { image: 'path_to_image2', name: 'iPhone 13', price: '₦730,000.00 × 1', date: '12 Sept 2022', status: 'Completed' },
-
-    // Add more orders as needed
 ];
 
 const RecentOrders = () => {
