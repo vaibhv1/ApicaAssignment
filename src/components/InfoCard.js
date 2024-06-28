@@ -1,4 +1,3 @@
-// src/components/InfoCard.js
 import React from 'react';
 import './styles/InfoCard.css';
 

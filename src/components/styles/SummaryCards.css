@@ -1,0 +1,44 @@
+/* src/components/SummaryCards.css */
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.summary-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #888;
+}
+
+.details {
+    text-align: right;
+}
+
+h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #888;
+}
+
+.value {
+    margin: 5px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.change {
+    color: #f00;
+    font-size: 14px;
+}

@@ -5,7 +5,7 @@ import TopBar from "./TopBar";
 import { SideBarData } from "./SideBarData";
 import Dashboard from "./DashBoard";
 import './styles/Body.css';  // Add this import to include CSS for layout
-
+import OrdersDetails from "./OrdersDetails";
 export const Body = () => {
   const [selectedTitle, setSelectedTitle] = useState(SideBarData[0].title);
 
@@ -19,6 +19,7 @@ export const Body = () => {
       <div className="main-content">
         <TopBar selectedTitle={selectedTitle} />
         <Dashboard />
+        <OrdersDetails/>
       </div>
     </div>
   );
