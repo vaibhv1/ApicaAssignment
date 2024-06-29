@@ -14,7 +14,7 @@ const InfoCard = ({ icon, title, value, subtitle, change,color }) => {
         </div>
         <div className="body">
           <div className="value">{value}</div>
-          <div className="change" style={{ color: change >= 0 ? "green" : "red" }}>{change}</div>
+          <div className="change" style={{ color: change >= 0 ? "red" : "green" }}>{change}</div>
         </div>
         <div className="footer">
           <div className="subtitle">{subtitle}</div>
